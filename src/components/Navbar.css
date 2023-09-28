@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: rgba(255, 255, 255, 0.1); */
+  backdrop-filter: blur(25px);
+  height: 8vh;
+  position: fixed;
+  z-index: 1;
+  /* margin-bottom: 500px; */
+  top: 0%;
+  width: 100vw;
+}
+
+.navbar li {
+  display: inline;
+  padding: 20px;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-weight: 800;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.scrolled {
+  background: #c5ffcb;
+  backdrop-filter: blur(25px);
+}
+
+.scrolled2 {
+  background: rgba(0, 0, 0, 0.51);
+  backdrop-filter: blur(25px);
+}

@@ -1,0 +1,38 @@
+/* .about {
+  height: 100vh;
+} */
+.the-company {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  background: rgba(197, 255, 203, 1);
+  height: 350px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-family: "Poppins";
+  font-size: 15px;
+  padding-top: 20px;
+}
+
+.writing h1 {
+  text-transform: uppercase;
+  margin-top: -5px;
+}
+
+.bonita {
+  background: url(../asserts/Rectangle\ 8.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 11vh;
+  margin-top: 229px;
+  padding: 30px;
+  padding-top: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bonita p {
+  width: 90%;
+}

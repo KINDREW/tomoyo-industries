@@ -1,0 +1,132 @@
+.why {
+  font-family: "Poppins";
+}
+
+.whyUs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.whyChoose {
+  font-size: 20px;
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.greenDot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.dot {
+  /* background: red; */
+  width: 30%;
+  margin-left: 10px;
+}
+
+/* .dot p {
+  text-align: right;
+} */
+
+.dot button {
+  padding: 5px 10px;
+  border-radius: 15px;
+  border: 2px solid #00730b;
+  background: #fff;
+  color: #00730b;
+  font-family: "Poppins";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 123%; /* 12.3px */
+}
+
+.ashDot {
+  display: flex;
+  align-items: center;
+  /* background: red; */
+}
+
+.dot {
+  color: #9c9c9c;
+
+  font-family: Poppins;
+}
+
+.center {
+  text-align: center;
+}
+
+.leftt {
+  text-align: left;
+}
+
+.rightt {
+  text-align: right;
+}
+
+.active {
+  color: #000;
+  text-align: center;
+  font-size: 15px;
+  line-height: normal;
+}
+
+.line {
+  background: rgba(217, 217, 217, 0.6);
+  width: 380px;
+  height: 2px;
+}
+
+.from {
+  margin-top: 50px;
+  padding: 10px;
+  background: linear-gradient(
+      rgba(217, 217, 217, 0.38),
+      rgba(217, 217, 217, 0.38)
+    ),
+    url(../asserts/Rectangle\ 18.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  height: 48vh;
+}
+
+.cus {
+  text-align: center;
+  /* margin-top: 150px; */
+  /* background: red; */
+}
+
+.oliv {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.oliv p {
+  border-radius: 20px;
+  background: rgba(0, 199, 20, 0.5);
+  padding: 20px 20px;
+  padding-bottom: 25px;
+  margin-left: 50px;
+  position: relative;
+  margin-top: -20px;
+}
+
+.colon {
+  padding: 0;
+  margin: 0;
+  font-size: 150px;
+  position: absolute;
+  top: 29%;
+  right: 77%;
+}
