@@ -1,0 +1,91 @@
+.contact {
+  display: flex;
+  font-family: "Poppins";
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.72) 0%,
+      rgba(0, 0, 0, 0.44) 100%
+    ),
+    url(../asserts/Rectangle\ 25.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 100px;
+  /* height: 579px; */
+}
+
+.tact {
+  width: 50%;
+  padding-right: 20px;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 18px;
+  font-style: normal;
+  /* font-weight: 400; */
+  line-height: normal;
+}
+
+.tact strong {
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  position: relative;
+  /* padding-left: 0px; */
+}
+
+input {
+  border-radius: 30px;
+  background: #454545;
+  padding: 10px 20px;
+  flex-shrink: 0;
+  margin-top: 20px;
+  border: 1px solid #454545;
+  width: 400px;
+  outline: none;
+  color: #fff;
+}
+
+textarea {
+  border-radius: 30px;
+  background: #454545;
+  padding: 10px 20px;
+  flex-shrink: 0;
+  margin-top: 20px;
+  border: 1px solid #454545;
+  width: 400px;
+  font-family: "Poppins";
+  outline: none;
+  color: white;
+}
+
+form div {
+  width: 380px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.send {
+  position: absolute;
+  top: 91%;
+  left: 80%;
+  border-radius: 15px;
+  border: 2px solid #fff;
+  width: 89px;
+  height: 35px;
+  flex-shrink: 0;
+  background: transparent;
+  color: #fff;
+}

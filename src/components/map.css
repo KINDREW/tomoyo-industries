@@ -1,0 +1,32 @@
+.map {
+  background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url(../asserts/Rectangle\ 23.png);
+  height: 30vh;
+  padding: 50px;
+  margin-top: 50px;
+  /* line-height: 50px; */
+}
+
+.oo {
+  /* background: red; */
+  width: 564px;
+  height: 236px;
+  flex-shrink: 0;
+  color: #fff;
+  font-family: "Poppins";
+  font-size: 20px;
+  font-style: normal;
+
+  /* line-height: 50px; */
+  padding: 20px 20px;
+}
+
+.oo h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.oo p {
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-top: -25px;
+}

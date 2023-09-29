@@ -40,10 +40,42 @@ const Navbar = () => {
   return (
     <nav className={navbarClassName}>
       <ul>
-        <li>Home</li>
-        <li>About</li>
-        <li>Service</li>
-        <li>Contact</li>
+        <ScrollLink
+          to="home"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset as needed
+          duration={500}
+        >
+          <li>Home</li>
+        </ScrollLink>
+        <ScrollLink
+          to="about"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset as needed
+          duration={500}
+        >
+          <li>About</li>
+        </ScrollLink>
+        <ScrollLink
+          to="services"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset as needed
+          duration={500}
+        >
+          <li>Service</li>
+        </ScrollLink>
+        <ScrollLink
+          to="contact"
+          spy={true}
+          smooth={true}
+          offset={-70} // Adjust this offset as needed
+          duration={500}
+        >
+          <li>Contact</li>
+        </ScrollLink>
       </ul>
     </nav>
   );
