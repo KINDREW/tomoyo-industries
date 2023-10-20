@@ -1,17 +1,37 @@
-/* .about {
+.about {
   height: 100vh;
-} */
+  /* width: 100vw; */
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
 .the-company {
   display: flex;
   flex-direction: row;
+  /* flex-wrap: wrap; */
   align-items: start;
   background: rgba(197, 255, 203, 1);
-  height: 350px;
-  padding-left: 100px;
-  padding-right: 100px;
+  height: 48%;
+  /* padding-left: 100px;
+  padding-right: 100px; */
   font-family: "Poppins";
-  font-size: 15px;
-  padding-top: 20px;
+  font-size: 12px;
+  /* padding-top: 20px; */
+  width: 100%;
+}
+
+.writing {
+  width: 30%;
+}
+.tractor {
+  width: 40%;
+}
+.tractor img {
+  width: 70%;
+}
+
+.writing-2 {
+  width: 30%;
 }
 
 .writing h1 {
@@ -35,4 +55,35 @@
 
 .bonita p {
   width: 90%;
+}
+
+@media (max-width: 768px) {
+  .the-company {
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  .tractor {
+    width: 0;
+    overflow: hidden;
+  }
+
+  .writing {
+    font-size: 12px;
+    width: 90%;
+  }
+  .writing-2 {
+    width: 90%;
+
+    margin-top: 20px;
+    font-size: 12px;
+  }
+
+  .bonita {
+    margin: 0;
+    margin-top: 150px;
+
+    font-size: 12px;
+  }
 }

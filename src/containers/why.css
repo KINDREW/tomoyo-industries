@@ -130,3 +130,44 @@
   top: 29%;
   right: 77%;
 }
+
+@media (max-width: 768px) {
+  .line {
+    width: 0;
+  }
+
+  .greenDot {
+    font-size: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .active {
+    font-size: 12px;
+  }
+
+  .dot button {
+    font-size: 8px;
+    padding: 2px 7px;
+  }
+  .ashDot svg {
+    width: 10px;
+  }
+
+  .oliv p {
+    font-size: 12px;
+    padding: 10px 10px;
+    padding-bottom: 15px;
+    margin-left: 25px;
+  }
+
+  .colon {
+    font-size: 100px;
+    top: 55%;
+    right: 60%;
+  }
+
+  .oliv h2 {
+    font-size: 18px;
+  }
+}

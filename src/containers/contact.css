@@ -53,7 +53,7 @@ input {
   flex-shrink: 0;
   margin-top: 20px;
   border: 1px solid #454545;
-  width: 400px;
+  width: 100%;
   outline: none;
   color: #fff;
 }
@@ -65,14 +65,17 @@ textarea {
   flex-shrink: 0;
   margin-top: 20px;
   border: 1px solid #454545;
-  width: 400px;
+  /* width: 400px;
+   */
+  width: 100%;
+
   font-family: "Poppins";
   outline: none;
   color: white;
 }
 
 form div {
-  width: 380px;
+  width: 90%;
   font-size: 13px;
   margin-top: 15px;
 }
@@ -80,7 +83,7 @@ form div {
 .send {
   position: absolute;
   top: 91%;
-  left: 80%;
+  left: 90%;
   border-radius: 15px;
   border: 2px solid #fff;
   width: 89px;
@@ -88,4 +91,30 @@ form div {
   flex-shrink: 0;
   background: transparent;
   color: #fff;
+}
+
+@media (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .tact {
+    width: 100%;
+  }
+
+  .con {
+    width: 100%;
+    /* background: rebeccapurple; */
+    padding-left: 0;
+    justify-content: start;
+    align-items: start;
+  }
+  form {
+    width: 80%;
+    justify-content: start;
+    align-items: start;
+  }
 }

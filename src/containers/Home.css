@@ -72,3 +72,35 @@
   align-self: end;
   margin-right: 78px;
 }
+
+@media (max-width: 768px) {
+  .home img {
+    width: 150px;
+    margin-left: 80px;
+    margin-top: 180px;
+  }
+
+  .home h1 {
+    font-size: 25px;
+    top: 20%;
+    left: 15%;
+  }
+
+  .home div {
+    font-size: 18px;
+    width: 80%;
+    margin-left: 80px;
+  }
+  .home span {
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+
+  .left {
+    margin-right: 109px;
+  }
+  .right {
+    margin-right: 38px;
+  }
+}

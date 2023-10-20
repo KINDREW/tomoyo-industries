@@ -4,6 +4,7 @@
 .theTeam {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 200px;
   padding-right: 200px;
@@ -24,4 +25,32 @@
 h1 {
   font-size: 700;
   font-size: 28;
+}
+
+@media (max-width: 768px) {
+  .theTeam {
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .meat {
+    margin-bottom: 0;
+  }
+
+  .theTeam img {
+    width: 50%;
+  }
+
+  .theTeam h1 {
+    font-size: 20px;
+  }
+  .theTeam h2 {
+    font-size: 20px;
+  }
+
+  .theTeam div {
+    margin-top: 20px;
+  }
 }

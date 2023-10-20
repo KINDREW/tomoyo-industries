@@ -27,8 +27,8 @@ const Contact = () => {
             placeholder="Message"
           ></textarea>
           <div>
-            This site is protected by reCAPTCHA and the Google <br /> Privacy
-            Policy and Terms of Service apply.
+            This site is protected by reCAPTCHA and the Google Privacy Policy
+            and Terms of Service apply.
           </div>
           <button className="send">Send</button>
         </form>
