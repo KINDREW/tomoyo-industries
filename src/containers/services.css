@@ -66,19 +66,21 @@
   }
 
   .our-2 {
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
   }
 
   .our-2 div {
     padding: 0;
     /* background-color: red; */
-    width: 40%;
+    width: 100%;
     text-align: center;
+    margin-top: 50px;
   }
 
   .our-2 img {
-    width: 80%;
+    width: 40%;
   }
 }

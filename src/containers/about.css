@@ -3,7 +3,6 @@
   /* width: 100vw; */
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
 .the-company {
   display: flex;
@@ -12,12 +11,13 @@
   align-items: start;
   background: rgba(197, 255, 203, 1);
   height: 48%;
-  /* padding-left: 100px;
-  padding-right: 100px; */
+  padding-left: 20px;
+  padding-right: 150px;
   font-family: "Poppins";
   font-size: 12px;
-  /* padding-top: 20px; */
+  padding-top: 30px;
   width: 100%;
+  /* padding: 20px; */
 }
 
 .writing {
@@ -27,11 +27,12 @@
   width: 40%;
 }
 .tractor img {
-  width: 70%;
+  margin-top: 20px;
+  width: 100%;
 }
 
 .writing-2 {
-  width: 30%;
+  width: 28%;
 }
 
 .writing h1 {
@@ -85,5 +86,48 @@
     margin-top: 150px;
 
     font-size: 12px;
+  }
+}
+
+@media (max-width: 426px) {
+  .about {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  .the-company {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    padding-top: 40px;
+  }
+  .writing {
+    font-size: 12px;
+
+    margin: 0;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .writing-2 {
+    position: absolute;
+    top: 70%;
+    left: 0%;
+    width: 90%;
+    margin-left: 20px;
+    font-size: 12px;
+  }
+
+  .bonita {
+    width: 100%;
+    margin-left: -27px;
+    font-size: 12px;
+    padding-bottom: 54px;
+  }
+
+  .bonita p {
+    margin-top: 30px;
   }
 }

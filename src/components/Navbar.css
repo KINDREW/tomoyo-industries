@@ -2,13 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* background: rgba(255, 255, 255, 0.1); */
-  backdrop-filter: blur(25px);
+  background: rgba(255, 255, 255, 0.1);
+
   height: 8vh;
   position: fixed;
-  z-index: 1;
-  /* margin-bottom: 500px; */
-  top: 0%;
+  z-index: 5;
+  /* margin-top: -2px; */
+
   width: 100vw;
 }
 
@@ -30,4 +30,129 @@
 .scrolled2 {
   background: rgba(0, 0, 0, 0.51);
   backdrop-filter: blur(25px);
+}
+
+@media (max-width: 426px) {
+  .navbar {
+    flex-direction: column;
+    /* height: fit-content; */
+    align-items: end;
+    justify-content: start;
+    /* justify-content: center; */
+    position: absolute;
+    /* background: red; */
+    margin-top: 0px;
+    padding-bottom: 20px;
+    height: 100vh;
+    /* background: linear-gradient (rgba(0, 0, 0, 1), red); */
+    transition: all 1s;
+  }
+
+  .overlay {
+    transition: all 1s;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7));
+  }
+  .navmenu {
+    width: 50%;
+    overflow: hidden;
+    height: 0;
+    transition: all 1s;
+  }
+
+  .appear {
+    background: rgb(255, 255, 255);
+    color: black;
+    transition: all 1s;
+    margin-top: 55px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-left: 0;
+    height: fit-content;
+  }
+  .navbar li {
+    display: block;
+    padding: 0;
+    line-height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgb(171, 170, 170);
+    text-align: center;
+    color: black;
+  }
+  .bar {
+    position: absolute;
+    /* background: red; */
+    margin-right: 20px;
+    margin-top: 10px;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+
+    background: white;
+    margin: 7px 3.2px;
+    transition: all 1s ease;
+  }
+  .bar1 {
+    transition: all 1s ease;
+
+    height: 1px;
+  }
+
+  .bar2 {
+    transition: all 1s ease;
+
+    height: 2px;
+  }
+
+  .bar3 {
+    transition: all 1s ease;
+
+    height: 3px;
+  }
+  .change .bar1 {
+    transform: rotate(45deg) translate(10px, -3px);
+    height: 3px;
+    transition: all 1s ease;
+    margin-top: 20px;
+    background: cornsilk;
+    margin-right: 5px;
+    /* margin-bottom: 15px; */
+  }
+  .change .bar2 {
+    /* transform: rotate(45deg) translate(10px, 10px); */
+    opacity: 0;
+  }
+  .change .bar3 {
+    transform: rotate(-45deg) translate(15px, -4px);
+    height: 3px;
+    transition: all 1s ease;
+    background: cornsilk;
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .navbar span {
+    color: white;
+    float: left;
+    align-self: start;
+    width: fit-content;
+    /* background: red; */
+    font-family: "Poppins";
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 12px;
+    display: none;
+  }
+
+  .scrolled {
+    display: none;
+  }
+
+  .scrolled2 {
+    display: none;
+  }
 }
